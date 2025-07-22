@@ -1,21 +1,21 @@
 {
-  "name": "hexo-content-blocks-fix",
-  "version": "1.0.0",
-  "description": "A plugin for Hexo, which allows someone to use content block with styles. Customization supported.",
+  "name": "hexo-foldable-block",
+  "version": "1.1.0",
+  "description": "A plugin for Hexo, which allows someone to use foldable content block with styles.",
   "main": "index.js",
+  "homepage": "https://github.com/zhengdehua/hexo-foldable-block",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sukwants/hexo-content-blocks.git"
+    "url": "git+https://github.com/zhengdehua/hexo-foldable-block.git"
   },
   "keywords": [
     "Hexo",
     "blocks",
-    "admonitions"
+    "foldable"
   ],
-  "author": "Sukwants",
+  "author": "zhengdehua",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sukwants/hexo-content-blocks/issues"
-  },
-  "homepage": "https://github.com/Sukwants/hexo-content-blocks#readme"
+    "url": "https://github.com/zhengdehua/hexo-foldable-block/issues"
+  }
 }

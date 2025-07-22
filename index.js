@@ -1,14 +1,3 @@
-/********** Hexo Plugin: hexo-content-blocks ********** 
- *    _____       _                         _         * 
- *   / ____|     | |                       | |        * 
- *  | (___  _   _| | ____      ____ _ _ __ | |_ ___   * 
- *   \___ \| | | | |/ /\ \ /\ / / _` | '_ \| __/ __|  * 
- *   ____) | |_| |   <  \ V  V / (_| | | | | |_\__ \  * 
- *  |_____/ \__,_|_|\_\  \_/\_/ \__,_|_| |_|\__|___/  * 
- *                                                    * 
- ****************** Made By Sukwants ******************/
-
-
 const openbutton = hexo.config.content_blocks.open_button;
 var types = hexo.config.content_blocks.types;
 
@@ -159,7 +148,7 @@ hexo.extend.tag.register('contentblock', (args, content) => {
     title = type.substring(0, 1).toUpperCase() + type.substring(1);
   }
   type = name_header + type;
-  
+
   return `
 <div class="${nh}-content ${nh}-block ${type}">
   <p class="${nh}-content ${nh}-block-title"><i class="${types[type][1]} fa-fw"></i>${title}</p>
@@ -240,4 +229,3 @@ hexo.extend.tag.register('contentcards', (args, content) => {
 </div>
 `;
 }, {ends: true});
- 
