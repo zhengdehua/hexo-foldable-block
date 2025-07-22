@@ -63,7 +63,7 @@ ${generateCss((typeKey) => `div.${nh}-content.${nh}-block.${typeKey} p.${nh}-con
   min-height: 1rem;
   border: none;
   font-weight: 700;
-  margin: 0 -1.2rem 1rem;
+  margin: 0 -1.2rem 0rem;
   padding: 0.4rem 0.6rem;
   position: relative;
   outline: none;
